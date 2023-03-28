@@ -1,0 +1,31 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset {
+  border: none;
+}
+legend {
+  font-size: 1.5em;
+  font-weight: 200;
+  text-decoration: underline;
+}
+.nombre, .direccion, #email, .asunto, .mensaje {
+  width: 70vw;
+}
+.obligatorio {
+ color: red;
+}
+
+strong {
+  display: block;
+  margin-top: 1em;
+}
+body {
+  padding-left: 10em;
+  padding-right: 10em;
+}
+
+#enviar {
+  display: block;
+  margin-left: 67vw;
+}

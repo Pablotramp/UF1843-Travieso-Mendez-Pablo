@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="shortcut icon" href="./gato.svg" type="image/x-icon">
+  <title>UF1843-Travieso-Mendez-Pablo</title>
+</head>
+
+<body>
+  <h1 class="titulo-ppal">Formulario de contacto</h1>
+  <form class="form">
+    <div class="hblm-div">
+      <fieldset class="hablemos">
+        <legend>Hablemos...</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" class="nombre" placeholder="Su nombre">
+        <span class="obligatorio">Campo obligatorio</span>
+        <br>
+        <label for="direccion">Dirección</label>
+        <input type="text" class="direccion" placeholder="Su dirección">
+        <br>
+        <label for="email">Correo electrónico</label>
+        <input type="email" name="email" id="email" placeholder="Su Email">
+        <span class="obligatorio">Campo obligatorio</span>
+        <br>
+        <label for="asunto">Asunto</label>
+        <input type="text" class="asunto" placeholder="Motivo de contacto">
+        <span class="obligatorio">Campo obligatorio</span>
+        <br>
+        <label for="mensaje">Mensaje</label>
+        <textarea class="mensaje" rows="4" cols="30" placeholder="Su mensaje">
+        <span class="obligatorio">Campo obligatorio</span>
+        </textarea>
+        <br>
+      </fieldset>
+    </div>
+    <div class="otr-div">
+      <fieldset class="otros-datos">
+        <legend>Otros datos</legend>
+        <strong>¿Cómo contacto por nosotros?</strong>
+        <label for="web">Web</label>
+        <input type="checkbox" name="web" id="web">
+        <label for="amigos">Amigos</label>
+        <input type="checkbox" name="amigos" id="amigos">
+        <label for="prensa">Prensa</label>
+        <input type="checkbox" name="prensa" id="prensa">
+        <label for="otros">Otros</label>
+        <input type="checkbox" name="otros" id="otros">
+        <br>
+        <strong>¿Es usted español?</strong>
+        <label for="si">Si</label>
+        <input type="radio" name="espanol" value="si">
+        <label for="no">No</label>
+        <input type="radio" name="espanol" value="no">
+        <br>
+        <strong>Sus intereses</strong>
+        <select multiple class="select">
+          <option class="deportes">Deportes</option>
+          <option class="naturaleza">Naturaleza</option>
+          <option class="informatica">Informática</option>
+          <option class="cine">Cine</option>
+      </fieldset>
+    </div>
+    <input id="enviar" type="submit" value="Enviar">
+  </form>
+
+</body>
+</html>
